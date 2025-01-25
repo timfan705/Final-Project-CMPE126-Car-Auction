@@ -1,0 +1,196 @@
+Welcome to the Car Auction Program!
+
+Choose an operation:
+1. Add a car to the auction (enter 'add')
+2. Start the auction (enter 'auction')
+3. Exit the program (enter 'exit')
+4. Search vehicle by ID# (enter 'ID')
+Command: 
+add
+
+Enter car brand: 
+Toyota
+Enter car model: 
+Corolla
+Enter car year: 
+2023
+Enter car ID: 
+1098772
+Enter starting bid: 
+20000
+
+Car added: 2023 Toyota Corolla (ID: 1098772)
+
+Choose an operation:
+1. Add a car to the auction (enter 'add')
+2. Start the auction (enter 'auction')
+3. Exit the program (enter 'exit')
+4. Search vehicle by ID# (enter 'ID')
+Command: 
+add
+
+Enter car brand: 
+Honda
+Enter car model: 
+Civic
+Enter car year: 
+1998
+Enter car ID: 
+1003893
+Enter starting bid: 
+5000
+
+Car added: 1998 Honda Civic (ID: 1003893)
+
+Choose an operation:
+1. Add a car to the auction (enter 'add')
+2. Start the auction (enter 'auction')
+3. Exit the program (enter 'exit')
+4. Search vehicle by ID# (enter 'ID')
+Command: 
+add
+
+Enter car brand: 
+BMW
+Enter car model: 
+335i
+Enter car year: 
+2008
+Enter car ID: 
+1097552
+Enter starting bid: 
+8000
+
+Car added: 2008 BMW 335i (ID: 1097552)
+
+Choose an operation:
+1. Add a car to the auction (enter 'add')
+2. Start the auction (enter 'auction')
+3. Exit the program (enter 'exit')
+4. Search vehicle by ID# (enter 'ID')
+Command: 
+ID
+Enter the ID of the vehicle you would like to look up: 
+1097522
+Car with ID 1097522 not found.
+
+Choose an operation:
+1. Add a car to the auction (enter 'add')
+2. Start the auction (enter 'auction')
+3. Exit the program (enter 'exit')
+4. Search vehicle by ID# (enter 'ID')
+Command: 
+ID
+Enter the ID of the vehicle you would like to look up: 
+1097552
+Car with ID 1097552 found in the auction system: 2008 BMW 335i
+
+Choose an operation:
+1. Add a car to the auction (enter 'add')
+2. Start the auction (enter 'auction')
+3. Exit the program (enter 'exit')
+4. Search vehicle by ID# (enter 'ID')
+Command: 
+auction
+
+Starting the auction!
+
+Cars in Auction Queue:
+2023 Toyota Corolla (ID: 1098772), Starting Bid: $20000
+
+1998 Honda Civic (ID: 1003893), Starting Bid: $5000
+
+2008 BMW 335i (ID: 1097552), Starting Bid: $8000
+
+Auctioning vehicle: 2023 Toyota Corolla (ID: 1098772)
+Enter bidder's name (or 'done' to stop bidding on this car): 
+Timothy
+Enter bid amount: 
+20300
+
+Bid accepted!
+
+Enter bidder's name (or 'done' to stop bidding on this car): 
+done
+Bidders for vehicle: 2023 Toyota Corolla --- 1098772
+Timothy: $20300
+This vehicle is sold!
+
+Cars in Auction Queue:
+1998 Honda Civic (ID: 1003893), Starting Bid: $5000
+
+2008 BMW 335i (ID: 1097552), Starting Bid: $8000
+
+Auctioning vehicle: 1998 Honda Civic (ID: 1003893)
+Enter bidder's name (or 'done' to stop bidding on this car): 
+Hank
+Enter bid amount: 
+5100
+
+Bid accepted!
+
+Enter bidder's name (or 'done' to stop bidding on this car): 
+Aaron
+Enter bid amount: 
+5300
+
+Bid accepted!
+
+Enter bidder's name (or 'done' to stop bidding on this car): 
+Paul
+Enter bid amount: 
+5800
+
+Bid accepted!
+
+Enter bidder's name (or 'done' to stop bidding on this car): 
+James
+Enter bid amount: 
+9000
+
+Bid accepted!
+
+Enter bidder's name (or 'done' to stop bidding on this car): 
+Ruby
+Enter bid amount: 
+10000
+
+Bid accepted!
+
+Bidders for vehicle: 1998 Honda Civic --- 1003893
+Ruby: $10000
+James: $9000
+Paul: $5800
+Aaron: $5300
+Hank: $5100
+This vehicle is sold!
+
+Cars in Auction Queue:
+2008 BMW 335i (ID: 1097552), Starting Bid: $8000
+
+Auctioning vehicle: 2008 BMW 335i (ID: 1097552)
+Enter bidder's name (or 'done' to stop bidding on this car): 
+Sophie 
+Enter bid amount: 
+7000
+
+Bid too low, Invalid!
+Enter bidder's name (or 'done' to stop bidding on this car): 
+Sophie
+Enter bid amount: 
+10000
+
+Bid accepted!
+
+Enter bidder's name (or 'done' to stop bidding on this car): 
+done
+Bidders for vehicle: 2008 BMW 335i --- 1097552
+Sophie: $10000
+This vehicle is sold!
+
+Cars in Auction Queue:
+No cars in the queue.
+All vehicles have been sold. Auction is over.
+
+
+** Process exited - Return Code: 0 **
